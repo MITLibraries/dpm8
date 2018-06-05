@@ -26,6 +26,7 @@
         "drupal/ctools": "^3.0",
         "drupal/field_group": "^1.0",
         "drupal/google_analytics": "^2.2",
+        "drupal/libraries": "^3.0@alpha",
         "drupal/media_entity": "^1.7",
         "drupal/menu_breadcrumb": "^1.5",
         "drupal/pathauto": "^1.2",
