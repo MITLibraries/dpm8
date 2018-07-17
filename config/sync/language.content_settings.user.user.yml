@@ -1,18 +1,17 @@
-uuid: 7c28d1d9-e82e-4e62-99a8-7253ad208900
+uuid: d1581c2a-7a68-4e6f-bb1a-8fd9e7d686db
 langcode: en
 status: true
 dependencies:
-  config:
-    - media_entity.bundle.image
   module:
     - content_translation
+    - user
 third_party_settings:
   content_translation:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: media.image
-target_entity_type_id: media
-target_bundle: image
+id: user.user
+target_entity_type_id: user
+target_bundle: user
 default_langcode: site_default
 language_alterable: false

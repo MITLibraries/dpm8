@@ -1,9 +1,9 @@
-uuid: 7c28d1d9-e82e-4e62-99a8-7253ad208900
+uuid: 9aa881d5-3b32-4905-a550-245fbdd89890
 langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.image
+    - comment.type.comment
   module:
     - content_translation
 third_party_settings:
@@ -11,8 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: media.image
-target_entity_type_id: media
-target_bundle: image
+id: comment.comment
+target_entity_type_id: comment
+target_bundle: comment
 default_langcode: site_default
 language_alterable: false
