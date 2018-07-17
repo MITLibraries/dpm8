@@ -1,0 +1,12 @@
+uuid: 9a83823c-783b-4437-b2eb-0baa9f8b3c28
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+description: 'I''m not entirely sure what this is.'
+type: generic
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.book.body
+    - field.field.node.book.field_image
+    - image.style.thumbnail
     - node.type.book
   module:
+    - insert
     - path
     - text
 _core:
@@ -30,6 +33,21 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    weight: 121
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      insert_absolute: false
+      insert_styles:
+        - icon_link
+        - link
+      insert_default: link
+      insert_width: null
+      insert_rotate: false
+    third_party_settings: {  }
+    type: insert_image
+    region: content
   langcode:
     type: language_select
     weight: 2
