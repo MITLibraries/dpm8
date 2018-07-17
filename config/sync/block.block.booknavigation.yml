@@ -9,7 +9,7 @@ dependencies:
 id: booknavigation
 theme: bartik
 region: sidebar_first
-weight: -6
+weight: -7
 provider: null
 plugin: book_navigation
 settings:
