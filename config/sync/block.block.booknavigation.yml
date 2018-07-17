@@ -1,6 +1,6 @@
 uuid: 779813a3-d7cd-4a37-bcb5-468ab0af0fe7
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - book
@@ -9,7 +9,7 @@ dependencies:
 id: booknavigation
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -6
 provider: null
 plugin: book_navigation
 settings:

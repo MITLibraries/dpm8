@@ -1,6 +1,6 @@
 uuid: a14c190b-480f-43d6-a24c-6cbe0f28a58f
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -11,7 +11,7 @@ dependencies:
 id: mainnavigation
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:
