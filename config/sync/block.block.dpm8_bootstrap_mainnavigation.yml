@@ -11,7 +11,7 @@ dependencies:
 id: dpm8_bootstrap_mainnavigation
 theme: dpm8_bootstrap
 region: sidebar_first
-weight: -6
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:

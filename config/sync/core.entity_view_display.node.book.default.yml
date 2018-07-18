@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.book.field_image
     - node.type.book
   module:
-    - image
     - text
     - user
 _core:
@@ -20,21 +19,15 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    weight: 102
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
   links:
-    weight: 101
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_image: true
   langcode: true

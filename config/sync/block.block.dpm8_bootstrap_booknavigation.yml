@@ -9,7 +9,7 @@ dependencies:
 id: dpm8_bootstrap_booknavigation
 theme: dpm8_bootstrap
 region: sidebar_first
-weight: -7
+weight: -4
 provider: null
 plugin: book_navigation
 settings:

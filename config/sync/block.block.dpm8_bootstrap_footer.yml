@@ -12,7 +12,7 @@ _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: dpm8_bootstrap_footer
 theme: dpm8_bootstrap
-region: navigation
+region: footer
 weight: -8
 provider: null
 plugin: 'system_menu_block:footer'
