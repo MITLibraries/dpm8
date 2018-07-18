@@ -1,0 +1,21 @@
+uuid: 34abaf5a-e471-4395-9624-0ce1ccf59c32
+langcode: en
+status: false
+dependencies:
+  module:
+    - book
+  theme:
+    - dpm8_bootstrap
+id: dpm8_bootstrap_booknavigation
+theme: dpm8_bootstrap
+region: sidebar_first
+weight: -7
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  provider: book
+  label_display: visible
+  block_mode: 'book pages'
+visibility: {  }

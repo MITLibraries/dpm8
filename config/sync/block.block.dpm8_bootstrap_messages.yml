@@ -1,0 +1,22 @@
+uuid: 165e3394-4b3e-4d6d-8949-441ea54f6dad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dpm8_bootstrap
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dpm8_bootstrap_messages
+theme: dpm8_bootstrap
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

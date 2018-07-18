@@ -1,0 +1,22 @@
+uuid: 89d9dc62-7cf5-4768-8c73-c3e91e6ccc39
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dpm8_bootstrap
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dpm8_bootstrap_content
+theme: dpm8_bootstrap
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

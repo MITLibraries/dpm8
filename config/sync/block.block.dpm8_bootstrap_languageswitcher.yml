@@ -1,0 +1,28 @@
+uuid: df8cdcc2-cb57-456e-b27f-be7ccf6a2219
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+  theme:
+    - dpm8_bootstrap
+id: dpm8_bootstrap_languageswitcher
+theme: dpm8_bootstrap
+region: navigation
+weight: -7
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
