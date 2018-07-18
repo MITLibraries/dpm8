@@ -25,6 +25,18 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "matt-bernhardt/dpm8_bootstrap",
+                "version": "0.0.1",
+                "type": "drupal-theme",
+                "dist": {
+                    "url": "https://github.com/matt-bernhardt/dpm8_bootstrap/archive/0.0.1.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -32,6 +44,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.24",
+        "drupal/bootstrap": "^3.11",
         "drupal/colorbox": "^1.4",
         "drupal/colorbox_inline": "^1.0",
         "drupal/console": "^1.0.2",
@@ -50,6 +63,7 @@
         "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "jackmoore/colorbox": "1.6.4",
+        "matt-bernhardt/dpm8_bootstrap": "0.0.1",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
