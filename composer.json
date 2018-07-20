@@ -30,10 +30,10 @@
             "type": "package",
             "package": {
                 "name": "matt-bernhardt/dpm8_bootstrap",
-                "version": "0.0.2",
+                "version": "0.0.3",
                 "type": "drupal-theme",
                 "dist": {
-                    "url": "https://github.com/matt-bernhardt/dpm8_bootstrap/archive/0.0.2.zip",
+                    "url": "https://github.com/matt-bernhardt/dpm8_bootstrap/archive/0.0.3.zip",
                     "type": "zip"
                 }
             }
@@ -63,7 +63,7 @@
         "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "jackmoore/colorbox": "1.6.4",
-        "matt-bernhardt/dpm8_bootstrap": "0.0.2",
+        "matt-bernhardt/dpm8_bootstrap": "0.0.3",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
