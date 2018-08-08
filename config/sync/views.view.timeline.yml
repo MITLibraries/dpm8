@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_year
     - node.type.timeline
+    - system.menu.tutorial
     - views.view.timeline_categories
   module:
     - node
@@ -339,6 +340,46 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: Language
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: langcode_op
+            label: 'Translation language'
+            description: null
+            use_operator: false
+            operator: langcode_op
+            identifier: langcode
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
       sorts:
         field_year_value:
           id: field_year_value
@@ -463,6 +504,15 @@ display:
     display_options:
       display_extenders: {  }
       path: timeline
+      menu:
+        type: normal
+        title: Timeline
+        description: ''
+        expanded: false
+        parent: 'menu_link_content:ed84b902-a13f-4708-a30a-742af2a26da5'
+        weight: 0
+        context: '0'
+        menu_name: tutorial
     cache_metadata:
       max-age: -1
       contexts:

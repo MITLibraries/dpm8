@@ -11,6 +11,7 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
+      - tutorial
     parent: 'main:'
 _core:
   default_config_hash: 2gWGA-X4ERc4McStS7cMEG3ZBpDEqfNRDPTjB1v674Y

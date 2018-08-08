@@ -224,6 +224,7 @@ display:
           entity_type: taxonomy_term
           entity_field: vid
           plugin_id: bundle
+          group: 1
         langcode:
           id: langcode
           table: taxonomy_term_field_data
@@ -234,7 +235,6 @@ display:
           operator: in
           value:
             '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
-            en: en
           group: 1
           exposed: false
           expose:
@@ -286,6 +286,10 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:

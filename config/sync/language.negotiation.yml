@@ -3,9 +3,9 @@ session:
 url:
   source: path_prefix
   prefixes:
-    en: ''
-    fr: fr
-    it: it
+    en: dpm-eng
+    fr: dpm-french
+    it: dpm-ita
   domains:
     en: ''
     fr: ''
