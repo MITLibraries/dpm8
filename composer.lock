@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3b436153faab30fa144a353c3fdf43f",
+    "content-hash": "40af0db636dd0807bd9679a447b8a86a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4095,10 +4095,10 @@
         },
         {
             "name": "matt-bernhardt/dpm8_bootstrap",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/matt-bernhardt/dpm8_bootstrap/archive/0.0.2.zip",
+                "url": "https://github.com/matt-bernhardt/dpm8_bootstrap/archive/0.0.3.zip",
                 "reference": null,
                 "shasum": null
             },

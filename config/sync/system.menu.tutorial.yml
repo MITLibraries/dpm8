@@ -1,0 +1,8 @@
+uuid: 11013184-d265-489a-8ef2-dae5f3d90df9
+langcode: en
+status: true
+dependencies: {  }
+id: tutorial
+label: Tutorial
+description: 'The digital preservation tutorial'
+locked: false

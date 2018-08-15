@@ -1,33 +1,33 @@
-uuid: 28aac3f8-ed0d-43bf-a929-d9bfbeee355c
+uuid: b6b54f48-606d-4fdf-8c10-dad65f9ed986
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.tutorial
   module:
     - superfish
   theme:
     - dpm8_bootstrap
-id: dpm8_bootstrap_mainnavigation_2
+id: tutorial
 theme: dpm8_bootstrap
 region: sidebar_first
-weight: -8
+weight: -7
 provider: null
-plugin: 'superfish:main'
+plugin: 'superfish:tutorial'
 settings:
-  id: 'superfish:main'
-  label: 'Main navigation'
+  id: 'superfish:tutorial'
+  label: Tutorial
   provider: superfish
   label_display: '0'
   level: '1'
   depth: '0'
   menu_type: vertical
-  style: white
+  style: blue
   arrow: 1
   shadow: 1
   speed: fast
   delay: '800'
-  slide: vertical
+  slide: none
   supposition: 1
   hoverintent: 1
   touch: '0'
