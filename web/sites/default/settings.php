@@ -49,3 +49,4 @@ $settings['trusted_host_patterns'] = [
   '^dpm8\.local'
 ];
 
+$settings['file_private_path'] = '../private';
