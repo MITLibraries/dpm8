@@ -45,6 +45,8 @@ $config_directories['sync'] = $_SERVER['SYNC_DIR'];
 
 $settings['trusted_host_patterns'] = [
   '^[a-z-.]+\.us-east-1\.elasticbeanstalk\.com$',
-  '^dpworkshop\.mitlib\.net$'
+  '^dpworkshop\.mitlib\.net$',
+  '^dpm8\.local'
 ];
 
+$settings['file_private_path'] = '../private';
