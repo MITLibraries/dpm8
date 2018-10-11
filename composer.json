@@ -57,6 +57,7 @@
         "drupal/media_entity": "^1.7",
         "drupal/menu_breadcrumb": "^1.5",
         "drupal/pathauto": "^1.2",
+        "drupal/raven": "^2.6",
         "drupal/recaptcha": "^2.3",
         "drupal/superfish": "^1.2",
         "drupal/token": "^1.3",
