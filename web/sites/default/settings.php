@@ -44,6 +44,7 @@ $settings['install_profile'] = 'standard';
 $config_directories['sync'] = $_SERVER['SYNC_DIR'];
 
 $settings['trusted_host_patterns'] = [
+  '^dpm8\.local$',
   '^[a-z-.]+\.us-east-1\.elasticbeanstalk\.com$',
   '^dpworkshop\.mitlib\.net$'
 ];

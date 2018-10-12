@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.timeline.body
+    - field.field.node.timeline.field_category
+    - field.field.node.timeline.field_year
     - node.type.timeline
   module:
     - text
@@ -25,5 +27,9 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_category: true
+  field_year: true
   langcode: true
