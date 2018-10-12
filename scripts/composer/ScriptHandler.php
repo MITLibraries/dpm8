@@ -51,13 +51,14 @@ class ScriptHandler {
       $event->getIO()->write("Create a sites/default/settings.php file with chmod 0666");
     }
 
-    // Create the files directory with chmod 0777
-    if (!$fs->exists($drupalRoot . '/sites/default/files')) {
-      $oldmask = umask(0);
-      $fs->mkdir($drupalRoot . '/sites/default/files', 0777);
-      umask($oldmask);
-      $event->getIO()->write("Create a sites/default/files directory with chmod 0777");
-    }
+    // Create the files directory with chmod 0777 ...
+    // ...but we don't create the files directory, because EFS will do that.
+    // if (!$fs->exists($drupalRoot . '/sites/default/files')) {
+    //   $oldmask = umask(0);
+    //   $fs->mkdir($drupalRoot . '/sites/default/files', 0777);
+    //   umask($oldmask);
+    //   $event->getIO()->write("Create a sites/default/files directory with chmod 0777");
+    // }
   }
 
   /**
