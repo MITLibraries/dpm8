@@ -19,6 +19,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  diff: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -30,6 +31,7 @@ module:
   google_analytics: 0
   help: 0
   history: 0
+  htmlpurifier: 0
   image: 0
   insert: 0
   language: 0
