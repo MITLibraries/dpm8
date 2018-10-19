@@ -34,6 +34,7 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - video_embed
         -
           name: 'Block Formatting'
           items:
@@ -46,7 +47,14 @@ settings:
     language:
       language_list: un
     stylescombo:
-      styles: ''
+      styles: 'span.colorbox|Load in modal box'
+    video_embed:
+      defaults:
+        children:
+          autoplay: false
+          responsive: true
+          width: '854'
+          height: '480'
 image_upload:
   status: true
   scheme: public
